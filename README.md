@@ -20,6 +20,18 @@
 
 ---
 
+## 🤝 Panduan Kontribusi
+
+Kami sangat menghargai kontribusi dari komunitas. Untuk panduan lengkap tentang cara melaporkan *bug* dan mengajukan Pull Request, silakan merujuk ke dokumen **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+
+<p align="center">
+  <a href="CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/Kontribusi-Lihat%20Panduan-brightgreen?style=for-the-badge&logo=github" alt="Kontribusi">
+  </a>
+</p>
+
+---
+
 ## ✨ Fitur Utama (Objective)
 
 Proyek ini mencakup praktik pengembangan inti berikut:
@@ -104,7 +116,7 @@ app/
 | **Navigation** | Navigation Compose | `2.8.3` |
 | **Target SDK** | `compileSdk/targetSdk` | `35` |
 | **Min SDK** | `minSdk` | `24` |
-| **Build Tool** | Android Studio Narwhal | `2025.1.1` + JDK 17 |
+| **Build Tool** | Android Studio Narwhal | `2025.1.1` + `JDK 17` |
 
 ---
 
