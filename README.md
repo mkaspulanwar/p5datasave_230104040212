@@ -11,12 +11,12 @@
 
 ---
 
-## 👥 Tim Pengembang
+## 👥 Tim Developer
 
 | Peran | Nama | Profil GitHub |
 | :--- | :--- | :--- |
 | **Pengembang Proyek** | M. Kaspul Anwar | [![](https://img.shields.io/badge/GitHub-M.KaspulAnwar-181717?style=flat&logo=github)]([https://github.com/mkaspulanwar]) |
-| **Dosen Pengampu** | Muhayat, M. IT | [![](https://img.shields.io/badge/GitHub-Muhayat--IT-181717?style=flat&logo=github)]([https://github.com/muhayat-lab]) |
+| **Dosen Pengampu** | Muhayat, M. IT | [![](https://img.shields.io/badge/GitHub-Muhayat,M.IT-181717?style=flat&logo=github)]([https://github.com/muhayat-lab]) |
 
 ---
 
