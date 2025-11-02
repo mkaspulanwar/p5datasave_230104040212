@@ -14,7 +14,7 @@ sealed class Dest(
 ) {
     data object Home : Dest("home", "Home", Icons.Outlined.Home)
     data object SP : Dest("sp", "SharedPrefs", Icons.Outlined.Settings)
-    data object Files : Dest("files", "Files", Icons.Outlined.Folder)
+    data object Files : Dest("id/antasari/p5datasave_230104040212/data/files", "Files", Icons.Outlined.Folder)
     data object About : Dest("about", "About", Icons.Outlined.Info)
 
     companion object {
