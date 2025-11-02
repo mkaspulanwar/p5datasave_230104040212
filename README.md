@@ -124,7 +124,7 @@ app/
 
 1.  Clone repository ini:
     ```bash
-    git clone [URL_REPOSITORY_ANDA]
+    git clone [URL_REPOSITORY_INI]
     ```
 2.  Buka proyek di **Android Studio Narwhal (2025.1.1 atau terbaru)**.
 3.  Pastikan dependensi Compose (`kotlinCompilerExtensionVersion = "1.5.14"`) telah disinkronkan.
