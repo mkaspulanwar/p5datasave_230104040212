@@ -131,3 +131,29 @@ app/
 4.  Jalankan aplikasi pada Emulator (API 34/35) atau perangkat fisik Android.
 
 ---
+
+## 📊 Dokumentasi Hasil Praktikum
+
+Tabel di bawah menyajikan verifikasi 10 tujuan praktikum, di mana setiap langkah (Nomor Tujuan) dilengkapi dengan bukti visual (maksimal 3 *screenshot*) dan analisis singkat.
+
+### Langkah 1 — Setup Proyek & Struktur Dasar
+
+| Screenshot 1 | 
+| :---: |
+| <img src="https://github.com/user-attachments/assets/10838f9d-8565-4eb6-b9ba-92c317a97cba" width="200" alt="Main Screen"> | 
+
+### Langkah 2 — Struktur & Theme Tokens
+| Screenshot 1 | 
+| :---: | 
+| <img src="https://github.com/user-attachments/assets/3be34a0c-a009-4b3d-9b86-fb0e2a8a0f13" width="200" alt="Navigasi"> |
+
+### Langkah 3 — Scaffold + Bottom Navigation + NavHost
+| Screenshot 1 | Screenshot 2 | Screenshot 3 | Screenshot 4 | 
+| :---: | :---: | :---: | :---: | 
+| <img src="https://github.com/user-attachments/assets/9d805cce-771f-42f0-9c31-52e3b5e487c2" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/c70439ae-6c9e-42d1-832a-27a75839c10a" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/46835f00-25f9-4d29-b2f0-a0f6b6d322be" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/bad3c6c7-1ee1-47b9-8e83-4ee298b40e23" width="200" alt="Navigasi"> |
+
+
+
+
+<img src="" width="200" alt="Navigasi">
+---
