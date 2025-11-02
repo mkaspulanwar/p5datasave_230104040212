@@ -152,8 +152,40 @@ Tabel di bawah menyajikan verifikasi 10 tujuan praktikum, di mana setiap langkah
 | :---: | :---: | :---: | :---: | 
 | <img src="https://github.com/user-attachments/assets/9d805cce-771f-42f0-9c31-52e3b5e487c2" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/c70439ae-6c9e-42d1-832a-27a75839c10a" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/46835f00-25f9-4d29-b2f0-a0f6b6d322be" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/bad3c6c7-1ee1-47b9-8e83-4ee298b40e23" width="200" alt="Navigasi"> |
 
+### Langkah 4 — Reusable Components (GradientCard + Chip)
+| Screenshot 1 | 
+| :---: |
+| <img src="https://github.com/user-attachments/assets/f8295437-2b52-4eb8-b149-695218598f3e" width="200" alt="Navigasi"> |
+
+### Langkah 5 — HomeScreen penuh
+| Screenshot 1 | 
+| :---: |
+| <img src="https://github.com/user-attachments/assets/a269cf69-620f-4833-ae7d-f518c30862fc" width="200" alt="Navigasi"> |
+
+### Langkah 6 — SharedPreferences (Repository + ViewModel + UI Form)
+| Screenshot 1 |
+| :---: |
+| <img src="https://github.com/user-attachments/assets/ed8f610d-602e-443e-b6f2-8d737dd141fa" width="200" alt="Navigasi"> |
+
+### Langkah 7 — File Handling (Multi-File + Dialog)
+| Screenshot 1 | 
+| :---: |
+| <img src="https://github.com/user-attachments/assets/3cf2919d-193f-4b4a-a0ae-2f10b8b3d8da" width="200" alt="Navigasi"> |
+
+### Langkah 8 — About + Quick Tips + Branding
+| Screenshot 1 |
+| :---: | 
+| <img src="https://github.com/user-attachments/assets/8263f552-60b5-4684-ab04-540248ab581c" width="200" alt="Navigasi"> |
+
+### Langkah 9 — Branding final & Launcher Icon
+| Screenshot 1 |
+| :---: |
+| <img src="https://github.com/user-attachments/assets/e98ad38b-65e6-449e-97e6-4c4e8fe0d94d" width="200" alt="Navigasi"> |
+
+### Langkah 10 — Final polish
+| Screenshot 1 | Screenshot 2 | Screenshot 3 | Screenshot 4 | 
+| :---: | :---: | :---: | :---: | 
+| <img src="https://github.com/user-attachments/assets/eebd0d5f-625b-4359-a183-5ec11784ab1c" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/57e0693b-c55c-420b-a26b-82be183fe7be" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/6ccb4680-6f3d-4138-bd18-b24e75ae47e1" width="200" alt="Navigasi"> | <img src="https://github.com/user-attachments/assets/689c6bee-f453-4978-af0f-e9711c44135a" width="200" alt="Navigasi"> |
 
 
-
-<img src="" width="200" alt="Navigasi">
 ---
