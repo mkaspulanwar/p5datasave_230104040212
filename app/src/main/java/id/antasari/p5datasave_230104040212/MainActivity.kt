@@ -32,6 +32,7 @@ import id.antasari.p5datasave_230104040212.data.prefs.PreferencesRepository
 import id.antasari.p5datasave_230104040212.navigation.Dest
 import id.antasari.p5datasave_230104040212.navigation.NavGraph
 import id.antasari.p5datasave_230104040212.ui.theme.KevaTheme
+import id.antasari.p5datasave_230104040212.navigation.navigateSingleTopTo
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
