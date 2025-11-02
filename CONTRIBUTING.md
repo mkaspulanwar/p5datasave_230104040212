@@ -1,72 +1,60 @@
-# 🤝 Panduan Kontribusi
+# Panduan Kontribusi
 
-Terima kasih telah meluangkan waktu untuk berkontribusi pada proyek **Keva - Aplikasi Persistensi Data Sederhana**! Kontribusi Anda sangat dihargai.
+Terima kasih atas minat Anda untuk berkontribusi pada proyek **Keva - Aplikasi Persistensi Data Sederhana**. Kami menghargai setiap kontribusi, baik itu dalam bentuk laporan *bug*, perbaikan kode, atau usulan fitur.
 
-Panduan ini menjelaskan proses dan standar yang perlu Anda ikuti untuk mengajukan perubahan (Pull Request) atau melaporkan masalah (Issue).
+Dokumen ini menguraikan prosedur dan pedoman yang harus diikuti saat Anda berpartisipasi dalam proyek.
 
 ---
 
 ## 🐞 Melaporkan Issue
 
-Jika Anda menemukan *bug* atau memiliki saran fitur, silakan buat Issue baru.
+Sebelum mengajukan Pull Request (PR), jika Anda menemukan *bug* atau memiliki ide untuk fitur baru, silakan laporkan Issue terlebih dahulu.
 
-1.  **Cek Duplikasi:** Pastikan belum ada Issue yang dibuka yang membahas masalah atau saran yang sama.
-2.  **Jelaskan Masalah:**
-    * Gunakan judul yang jelas dan deskriptif.
-    * Jelaskan langkah-langkah untuk mereproduksi *bug* (jika ada).
-    * Sertakan informasi tentang lingkungan Anda (Perangkat, OS Android, Versi Aplikasi, Versi Android Studio).
-    * Jika ini adalah saran fitur, jelaskan kegunaan dan alasannya.
+1.  **Cek Duplikasi:** Pastikan tidak ada Issue yang sudah dibuka yang membahas masalah atau fitur yang sama.
+2.  **Gunakan Judul Deskriptif:** Buat judul Issue yang ringkas dan jelas.
+3.  **Jelaskan Masalah (*Bug*):**
+    * Sediakan **langkah-langkah yang jelas** untuk mereproduksi *bug*.
+    * Jelaskan perilaku yang diharapkan dan perilaku yang sebenarnya terjadi.
+    * Sertakan informasi lingkungan: Versi Aplikasi, Versi Android Studio, dan API Level Android yang digunakan.
+4.  **Saran Fitur:**
+    * Jelaskan tujuan dan manfaat dari fitur yang Anda usulkan.
 
 ---
 
 ## ⚙️ Mengajukan Perubahan (Pull Request)
 
-Kami menyambut kontribusi dalam bentuk perbaikan *bug*, peningkatan fitur, atau perbaikan dokumentasi.
+Kontribusi kode harus mengikuti alur kerja *Git* dan standar teknis proyek.
 
-### 1. Proses Pengembangan
+### 1. Alur Kerja Kontribusi
 
-1.  **Fork** repositori ini ke akun GitHub Anda.
-2.  **Clone** repositori yang sudah Anda *fork* ke lokal Anda.
-    ```bash
-    git clone [https://github.com/YourUsername/keva-persistence-app.git](https://github.com/YourUsername/keva-persistence-app.git)
-    ```
-3.  Buat **Branch Baru** untuk perubahan Anda. Gunakan nama yang deskriptif (misalnya: `feature/tambah-validasi-nim` atau `fix/issue-darkmode-persistence`).
+1.  **Fork** repositori ini ke akun GitHub pribadi Anda.
+2.  **Clone** repositori yang sudah Anda *fork* ke lingkungan lokal Anda.
+3.  Buat **Branch Baru** dari `main`. Gunakan konvensi penamaan yang jelas: `fix/nama-bug` atau `feat/nama-fitur-baru`.
+
     ```bash
     git checkout -b nama-branch-anda
     ```
-4.  Lakukan perubahan dan pastikan kode Anda:
-    * Berjalan tanpa *crash* di emulator/perangkat target (**minSdk 24, targetSdk 35**).
-    * Mengikuti **Konvensi Kotlin** dan **prinsip Clean Code/Repository Pattern** yang sudah ada.
-    * Menggunakan **Jetpack Compose dan Material 3** secara konsisten.
-5.  **Commit** perubahan Anda. Tulis pesan *commit* yang ringkas dan informatif.
-    ```bash
-    git commit -m "feat: Menambahkan validasi input NIM agar numerik dan tidak kosong"
-    ```
-6.  **Push** *branch* Anda ke GitHub.
-    ```bash
-    git push origin nama-branch-anda
-    ```
 
-### 2. Pedoman Kode & Style
+4.  Lakukan perubahan kode. Pastikan semua *build* berjalan bersih dan aplikasi tidak *crash* pada perangkat target.
+5.  **Commit** perubahan Anda. Gunakan pesan *commit* yang **imperatif** dan **singkat** (contoh: `feat: Implementasi validasi input NIM`).
+6.  **Push** *branch* Anda ke repositori *fork* Anda.
+7.  Buka **Pull Request (PR)** dari *branch* Anda ke *branch* `main` di repositori ini.
 
-* **Kotlin:** Patuhi [Kotlin Coding Conventions](https://kotlinlang.org/docs/coding-conventions.html).
-* **Compose:** Hindari menggunakan fungsi Composable di luar file `ui/screens` atau `ui/components` kecuali diperlukan (misalnya di `MainActivity`).
-* **Data:** Semua operasi I/O dan persisten data harus melalui **Repository** yang relevan (`FilesRepository.kt` atau `PreferencesRepository.kt`).
-* **Navigasi:** Gunakan definisi rute yang ada di `NavGraph.kt`.
+### 2. Pedoman Teknis dan Kode
 
-### 3. Mengajukan Pull Request (PR)
+* **Arsitektur:** Patuhi **Repository Pattern** yang sudah diterapkan. Operasi data (SharedPreferences dan File I/O) harus melalui layer Repository.
+* **Kotlin:** Ikuti [Konvensi Kode Kotlin](https://kotlinlang.org/docs/coding-conventions.html).
+* **UI/Compose:** Gunakan komponen **Jetpack Compose dan Material 3** secara eksklusif. Hindari penggunaan View lama (XML) atau *legacy* API.
+* **Style Commit:** Pesan *commit* harus jelas. Awali dengan tipe: `fix:`, `feat:`, `docs:`, `refactor:`, dsb.
 
-1.  Buka **Pull Request** dari *branch* Anda ke *branch* `main` di repositori asli.
-2.  **Deskripsikan PR:**
-    * Jelaskan secara singkat apa yang diubah.
-    * Sertakan referensi ke Issue yang relevan (misalnya: `Fixes #12`).
-    * Sertakan *screenshot* atau GIF jika perubahan melibatkan UI.
-3.  Setelah diajukan, tim pengembang akan melakukan *review* kode. Bersiaplah untuk diskusi dan penyesuaian.
+### 3. Review Pull Request
+
+* Setelah PR diajukan, tim akan melakukan *review* kode.
+* Kami mungkin meminta perubahan (revisi) atau klarifikasi.
+* Setelah disetujui, PR Anda akan di-*merge* ke *branch* `main`.
 
 ---
 
-## 📝 Lisensi
+## 📜 Lisensi
 
-Dengan berkontribusi, Anda setuju bahwa kontribusi Anda akan dilisensikan di bawah [Lisensi MIT](LICENSE) proyek ini.
-
-Terima kasih atas kontribusi Anda!
+Dengan berkontribusi pada proyek ini, Anda menyetujui bahwa kontribusi Anda akan dilisensikan di bawah **GPL-3.0 License**.
