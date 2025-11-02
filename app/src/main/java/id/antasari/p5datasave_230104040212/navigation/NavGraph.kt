@@ -16,7 +16,7 @@ import id.antasari.p5datasave_230104040212.ui.screens.SharedPrefsScreen
 fun NavGraph(
     nav: NavHostController,
     pad: PaddingValues,
-    onDarkChanged: (Boolean) -> Unit // <- callback dari mainActivity
+    onDarkChanged: (Boolean) -> Unit // <- callback dari mainActivity untuk sinkron tema
 ) {
     NavHost(
         navController = nav,
